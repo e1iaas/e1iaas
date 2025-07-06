@@ -1,4 +1,4 @@
-Elias Ekberg Gasper 🦧
+Elias Ekberg Gasper 🐸💻
 
 I'm a self-taught JavaScript developer building tools that help people understand and improve their digital habits.  
 Currently building a Chrome extension that tracks tab usage and visualizes your browsing behavior for productivity insights.
