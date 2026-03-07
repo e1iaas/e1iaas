@@ -1,23 +1,54 @@
-Elias Ekberg Gasper 🐸💻
+# Elias Ekberg Gasper 🐸💻
 
-I'm a self-taught JavaScript developer building tools that help people understand and improve their digital habits.  
-Currently building a Chrome extension that tracks tab usage and visualizes your browsing behavior for productivity insights.
+Self-taught backend & data engineer based in Gothenburg, Sweden. I build production-grade applications with Python, Django, and PostgreSQL — focused on data pipelines, semantic search, and AI-powered backends.
 
-> I'm thinking like a product-focused developer — building tools that solve real problems and could grow into something bigger.
+Currently open to **remote backend or data engineering roles**.
 
-## Projects I'm Building
--  **Chrome Productivity Tracker**  
-  A Chrome extension (in private repo for now) that helps users visualize their internet habits to make better decisions.
+---
+
+## What I'm Building
+
+### [MobelQuery](https://www.mobelquery.com) — AI Furniture Search Engine
+A full-stack semantic search application for furniture discovery. Users describe what they're looking for in natural language and the engine returns results ranked by semantic meaning using cosine similarity over vector embeddings.
+
+**Stack:** React + Tailwind → Vercel, Django REST API + PostgreSQL + pgvector → AWS EC2, SentenceTransformer `all-MiniLM-L6-v2`, SpaCy
+
+**What's interesting:**
+- Vector embeddings stored and queried in PostgreSQL via pgvector
+- SpaCy NLP pipeline scores product descriptions for semantic density before embedding
+- Replaced in-memory FAISS index with persistent DB similarity search
+- Full ETL pipeline from raw product data to searchable vector store
+
+---
+
+## Tech Stack
+
+**Backend:** Python, Django, Django REST Framework  
+**Databases:** PostgreSQL, pgvector  
+**ML/NLP:** SentenceTransformers, SpaCy, FAISS  
+**Frontend:** React, Tailwind CSS  
+**Cloud:** AWS EC2, Vercel  
+**Tools:** Git, Linux, Nginx, Gunicorn, Docker (learning)
+
+---
 
 ## Goals
-- Launch and share 2 real-world projects by end of year  
-- Land my first backend developer job by early 2026  
-- Learn more about user data visualization and behavior design  
-- Explore turning a personal tool into a lightweight SaaS  
-- **Transition into building AI-powered backend tools and infrastructure**
 
-## Why Some Projects Are Private
-Some of my current projects are private as I explore turning them into real products.  
-Once ready, I’ll publish code samples, demo links, or a breakdown of the architecture :^)
+- Land a remote backend or data engineering role
+- Build a production ETL pipeline with real product data at scale
+- Contribute to open source projects in the Python/data ecosystem
+- Work remotely on backend infrastructure, data pipelines, 
+  or developer tooling at a company building things that matter.
 
+---
 
+## Currently Learning
+
+- Docker & containerization
+- CI/CD with GitHub Actions
+- Advanced PostgreSQL & query optimization
+- SQL for data engineering 
+
+---
+
+*Some projects are private while in active development. Architecture breakdowns and demos available on request.*
