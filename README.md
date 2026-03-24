@@ -1,10 +1,19 @@
 # Elias Ekberg Gasper 🐸💻
 
-Self-taught backend & data engineer based in Sweden. I build production-grade applications with Python, Django, and PostgreSQL — focused on data pipelines, semantic search, and AI-powered backends.
+Backend & Data Engineer (self-taught) based in Sweden. I build production-grade applications using Python, Django, and PostgreSQL, with a focus on data pipelines, semantic search, and AI-powered backends.
+
+My current live application: https://www.mobelquery.com
 
 Currently open to **remote backend or data engineering roles**.
-
 ---
+
+## Impact
+
+• Built and deployed a full-stack semantic search system handling real product data  
+• Designed an end-to-end ETL pipeline from raw data → processed → vector search  
+• Implemented cosine similarity search directly in PostgreSQL using pgvector  
+• Deployed backend on AWS EC2 with Nginx + Gunicorn  
+• Reduced reliance on in-memory FAISS by moving to persistent database search  
 
 ## What I'm Building
 
