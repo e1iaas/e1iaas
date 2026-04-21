@@ -1,6 +1,6 @@
 # Elias Ekberg Gasper 🐸💻
 
-#Backend Developer | Data Systems, APIs & Search
+# Backend Developer | Data Systems, APIs & Search
 
 I build and deploy backend systems focused on data pipelines, APIs, and search.
 
