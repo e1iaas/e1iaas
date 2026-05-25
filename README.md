@@ -8,6 +8,16 @@ Over the past two years, I’ve been designing and shipping systems end-to-end a
 
 # Selected Work
 
+PayDuer — Automated Invoice Collections for QBO (In Development)
+A SaaS tool that automates AR follow-ups for small businesses using QuickBooks Online.
+
+Building OAuth 2.0 integration with QuickBooks Online API
+Designing automated reminder workflows triggered by invoice aging
+Implementing webhook listeners for real-time payment status sync
+Building multi-cadence email sequences that stop automatically on payment
+
+Stack: Python, FASTAPI, PostgreSQL, QuickBooks API, React
+
 MobelQuery — Semantic Search Platform (Production)  https://www.mobelquery.com
 
 A full-stack search system that allows users to query products using natural language.
